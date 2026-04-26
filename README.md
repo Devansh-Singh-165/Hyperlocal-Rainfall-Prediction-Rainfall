@@ -84,19 +84,14 @@ python train.py
 
 > Trains a Random Forest classifier, prints accuracy, and saves `model/rain_model.pkl`.
 
-### 4. Launch the dashboard
+### 4. Launch the application
 
 ```bash
-streamlit run app/streamlit_app.py
+python run_system.py
 ```
 
-> Opens a browser tab at `http://localhost:8501` with live predictions.
-
-### (Optional) Run predictions in the terminal
-
-```bash
-python predict.py
-```
+> This script automatically starts the Flask Backend API and the React Frontend Dashboard simultaneously. 
+> Opens the frontend at `http://localhost:5173` with live predictions.
 
 ---
 
